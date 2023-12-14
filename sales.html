@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Sales page
+    </title>
+
+    <link rel="stylesheet" href="sales.css">
+</head>
+
+
+<body>
+    <div class="page">
+        
+        <div class="container">
+            
+            <img src = "tees.jpeg" alt="Image" class="tees">
+            <div class="right-side">
+                <p>&#8377;451</p>
+                <form>
+                    <label for = "quantity">Quantity</label>
+                    <select name="quantity" id="items" class="quantity-selection">
+
+                        <option value = "1">1</option>
+                        <option value = "2">2</option>
+                        <option value = "3">3</option>
+                        <option value = "4">4</option>
+                        <option value = "5">5</option>
+                        
+                    </select>
+                </form>
+
+                <form>
+                    <p>Please select your Payment method: </p>
+                    <input type="radio" id="gpay" name="payment_mode" >
+                    <label for="gpay">GPAY</label><br>
+
+                    <input type="radio" id="netbanking" name="payment_mode">
+                    <label for="netbanking">Net Banking</label><br>
+
+                    <input type="radio" id="card" name="payment_mode" >
+                    <label for="card">Debit/Credit Card</label><br>
+                
+                    <input type="submit" value="Submit" class="submit-button">
+                </form>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
